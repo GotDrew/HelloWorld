@@ -6,6 +6,8 @@
         <TextBlock x:Name="TestText" HorizontalAlignment="Center" Margin="100,75,100,200" TextWrapping="Wrap" Text="Some Random Text..." VerticalAlignment="Top" Height="100" Width="350" TextAlignment="Center" Foreground="#FFC7C7C7" FontSize="18"/>
         <Button Content="Click" HorizontalAlignment="Left" Margin="100,0,0,50" VerticalAlignment="Bottom" Width="120" Click="Button_Click" BorderBrush="#FF686868" Background="#FF3E3E42" Height="30" FontSize="18" Foreground="#FFCBCBCB"/>
         <Button Content="Quit" HorizontalAlignment="Right" Margin="0,0,100,50" Width="120" Click="Button_Click_1" VerticalAlignment="Bottom" Background="#FF3E3E42" BorderBrush="#FF686868" Height="30" FontSize="18" Foreground="#FFCBCBCB"/>
+        <Label x:Name="Title" Content="Epic Program of Awesome" HorizontalAlignment="Center" Margin="0" VerticalAlignment="Top" Foreground="#FFCBCBCB" FontSize="24" FontWeight="Bold"/>
+        <Button Content="Start" HorizontalAlignment="Center" Margin="0,0,0,100" VerticalAlignment="Bottom" Width="120" Click="Button_Click" BorderBrush="#FF686868" Background="#FF3E3E42" Height="30" FontSize="18" Foreground="#FFCBCBCB"/>
 
     </Grid>
 </Window>
